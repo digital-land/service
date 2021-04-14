@@ -1,7 +1,7 @@
 {% extends "digital-land-frontend/dlf-base.html" %}
 {% from 'digital-land-frontend/components/feedback-panel/macro.html' import dlFeedbackPanel %}
 
-{% block pageTitle %}{{ content.name }} | Products | Digital Land{% endblock %}
+{% block pageTitle %}{{ content.name }} | Services | Digital Land{% endblock %}
 
 {% block beforeContent %}
   {% include 'digital-land-frontend/partials/dl-prototype-banner.html' %}
@@ -13,8 +13,8 @@
         "href": "https://digital-land.github.io/"
       },
       {
-        "text": "Products",
-        "href": "/product"
+        "text": "Services",
+        "href": "/service"
       },
       {
         "text": content.name
@@ -25,7 +25,7 @@
 {% endblock %}
 
 {% block content %}
-<span class="govuk-caption-xl">Project</span>
+<span class="govuk-caption-xl">Service</span>
 <h1 class="govuk-heading-xl">
     {{ content.name }}
     {% if content.status -%}

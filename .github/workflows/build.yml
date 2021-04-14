@@ -1,4 +1,4 @@
-name: Build product pages
+name: Build service pages
 
 on:
   push:

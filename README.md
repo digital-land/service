@@ -1,4 +1,4 @@
-# Product pages
+# Service pages
 
 Install dependencies
 
