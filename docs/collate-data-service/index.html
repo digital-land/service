@@ -155,9 +155,24 @@
     </div>
 </h1>
 
+<p class="govuk-body">A service to collect and collate data published by our data publisher users.</p>
 <h2 class="govuk-heading-l" id="why-is-this-service-needed">Why is this service needed</h2>
+<p class="govuk-body">Planning data is created and published by a large number of organisations, including over 350 local authorities.</p>
+<p class="govuk-body">This makes looking at data on a national level difficult. To do so you need to find and collect data from any of the 350+ local authorities that publish that data. From experience it can be difficult to find the data and then difficult to combine data from multiple sources.</p>
+<p class="govuk-body">This service aims to solve those issues. It keeps a list of sources of a given type and collects them regularly. It then aims to standardise the data collected and combine it into a national dataset.</p>
 <h3 class="govuk-heading-m" id="hypotheses">Hypotheses</h3>
+<ul class="govuk-list govuk-list--bullet">
+<li>users of the data prefer to get a complete dataset from one place</li>
+<li>datasets on a national level are more valuable to proptech users</li>
+<li>our service can fix a lot of common issues, making the data easier to use</li>
+</ul>
 <h2 class="govuk-heading-l" id="what-weve-done-so-far">What we've done so far</h2>
+<p class="govuk-body">We collect data for a number of datasets, including <a href="https://digital-land.github.io/brownfield-land/">Brownfield land</a>, <a href="https://digital-land.github.io/conservation-area/">Conservation areas</a> and <a href="https://digital-land.github.io/development-plan-document/">Development plans</a>.</p>
+<p class="govuk-body">The <a href="https://digital-land.github.io/guidance/pipeline/">pipeline</a> can collect data from any number of sources, it then processes it, fixing common issues and puts the data together into a Entity-Fact-Source model. This allows us to know where any attribute on any entity in any dataset came from. The model is then used to create a deduplicated snapshot of the data, for example, all the conservation areas we have collected and the current values for each expected attribute.</p>
+<p class="govuk-body">The pipeline logs any changes it makes to the raw data.</p>
+<p class="govuk-body">We have one collector per data type. For example, a collector to collect all the <a href="https://github.com/digital-land/development-plan-document-collection">development-plan-documents</a> and a collector to collect all the <a href="https://github.com/digital-land/development-policy-collection">development-policies</a>.</p>
+<p class="govuk-body">Changes to the list of sources each collector will attempt to collect are made manually by updating the <code class="dl-code">source.csv</code> file in the relevant collector repository.</p>
+<p class="govuk-body">We have a Jira Service Desk process for local authorities to email us links to newly published or updated data.</p>
 
 
 <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
