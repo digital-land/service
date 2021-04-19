@@ -24,18 +24,20 @@
 {% block content %}
 <h1 class="govuk-heading-xl">Services</h1>
 
+<p class="govuk-body">The digital land team are working on a number of services to help make planning data easier to find, use and trust.</p>
+
 <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
 
         <ul class="govuk-list">
-          {% for page in top_level_pages %}
+          {%- for page in top_level_pages %}
           <li>
             <h2 class="govuk-heading-s govuk-!-margin-bottom-2"><a href="{{ page.url }}" class="govuk-link">{{ page.name }}</a></h2>
-            {% if page.summary %}
+            {%- if page.summary %}
             <p class="govuk-body">{{ page.summary }}</p>
-            {% endif %}
+            {% endif -%}
           </li>
-          {% endfor %}
+          {% endfor -%}
         </ul>
         
     </div>
