@@ -30,7 +30,10 @@
         <ul class="govuk-list">
           {% for page in top_level_pages %}
           <li>
-            <a href="{{ page.url }}" class="govuk-link">{{ page.name }}</a>
+            <h2 class="govuk-heading-s govuk-!-margin-bottom-2"><a href="{{ page.url }}" class="govuk-link">{{ page.name }}</a></h2>
+            {% if page.summary %}
+            <p class="govuk-body">{{ page.summary }}</p>
+            {% endif %}
           </li>
           {% endfor %}
         </ul>

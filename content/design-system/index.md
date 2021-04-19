@@ -1,6 +1,7 @@
 ---
 name: "Digital land design system"
 status: "in-progress"
+summary: "The design system helps users building digital land services to reuse our components and use our frontend assets."
 ---
 
 A service for users of the digital land frontend assets.

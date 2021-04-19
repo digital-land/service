@@ -1,6 +1,7 @@
 ---
 name: "Collate data service"
 status: "in-progress"
+summary: "Create national datasets for proptech users by collecting data from multiple sources and collating."
 ---
 
 A service to collect and collate data published by our data publisher users.

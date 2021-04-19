@@ -1,6 +1,7 @@
 ---
 name: "Collect documents service"
 status: "idea"
+summary: "A service to collect and store copies of planning documents."
 ---
 
 A service to collect and store planning documents.

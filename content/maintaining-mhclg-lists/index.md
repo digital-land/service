@@ -1,6 +1,7 @@
 ---
 name: "Maintaining MHCLG lists"
 status: "idea"
+summary: "A service for maintaining our lists of data."
 ---
 
 A service to help manage MHCLG data. This includes a list of permitted development rights and a list of developer contribution purpose categories.

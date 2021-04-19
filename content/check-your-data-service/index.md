@@ -1,6 +1,7 @@
 ---
-name: "Resource pages"
+name: "Check your data service"
 status: "in-progress"
+summary: "A service to help data publishes check their data."
 ---
 
 A service to play back collected resources in a familiar context for data publishers.

@@ -1,6 +1,7 @@
 ---
 name: "Notify and alert"
 status: "in-progress"
+summary: "A service for data publishes to help them produce compatible and accurate data."
 ---
 
 A service to create high quality data by notifying and alerting data publishers to errors in the data and potential issues the digital land platform has come across. 

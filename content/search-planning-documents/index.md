@@ -1,6 +1,7 @@
 ---
 name: "Search planning documents"
 status: "idea"
+summary: "Help users searching for relevant planning documents."
 ---
 
 A service for users to search for and across planning documents.
